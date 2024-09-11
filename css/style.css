@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height:auto;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url();
+}
+
+.principal {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 40%;
+    height: 19%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.titulo h1{
+    font-size: clamp(22px , 4vw, 30px);
+    font-family: comic;
+}
+
+.section-archivos{
+    width: 100%;
+    height: auto    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.all-archivos {
+    display: flex;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.algoritmos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: clamp(16px , 3vw, 20px);
+    margin-top: 10px;
+    font-family: Nexa-light ;
+}
+
+.infografia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+
+.archivo p{
+    font-family: comic;
+    margin-top: 5px;
+    text-align: center;
+    font-size: clamp(10px, 2vw , 25px);
+}
+
+
+.archivo a{
+    font-size: 14px;
+    background-color: rgba(210, 142, 255, 0.701);
+    text-decoration: none;
+    padding: 9px;
+    color: black;
+    border-radius: 5px;
+    font-family: Nexa-heavy;
+}
+
+
+
+.archivo h5{
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Nexa-heavy;
+}
+
+.archivo{
+    box-shadow: 1px 2px 20px 1px rgba(0, 0, 0, 0.124);
+    border-radius: 10px;
+}
+
+.btn-descargar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+
+}
+
+
+/*TELEFONO*/
+@media screen and (min-width: 300px) and (max-width: 601px) {
+    .archivo {
+        padding: 10px;
+        width: 300px;  
+        height: auto;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+    .img-pdf{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px auto 5px auto;
+        width: 50%;
+        height: 60%;
+        
+    }
+
+    
+    .img-pdf img{
+        width:70%;
+        height:100%;
+    }
+    
+}
+
+/*TABLET*/
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .archivo {
+        padding: 10px;
+        width: 300px;  
+        height: auto;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+    .img-pdf{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px auto 5px auto;
+        width: 50%;
+        height: 60%;
+    }
+
+    
+    .img-pdf img{
+        width:70%;
+        height:100%;
+    }
+}
+
+/*ESCRITORIO*/
+@media screen and (min-width: 1024px) {
+    .archivo {
+        padding: 10px;
+        width: 300px;  
+        height: auto;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+    .img-pdf{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px auto 5px auto;
+        width: 50%;
+        height: 60%;
+    }
+
+    
+    .img-pdf img{
+        width:70%;
+        height:100%;
+    }
+}
+
+
+
+
+
+
+@font-face {
+    font-family: comic;
+    src: url(/fuentes/Hey\ Comic.otf)
+}
+
+@font-face {
+    font-family: Nexa-light;
+    src: url(/fuentes/Nexa-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Nexa-heavy;
+    src: url(/fuentes/Nexa-Heavy.ttf);
+}
