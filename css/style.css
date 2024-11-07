@@ -223,15 +223,15 @@ body {
 
 @font-face {
     font-family: comic;
-    src: url(/fuentes/Hey\ Comic.otf)
+    src: url(../fuentes/Hey\ Comic.otf)
 }
 
 @font-face {
     font-family: Nexa-light;
-    src: url(/fuentes/Nexa-ExtraLight.ttf);
+    src: url(../fuentes/Nexa-ExtraLight.ttf);
 }
 
 @font-face {
     font-family: Nexa-heavy;
-    src: url(/fuentes/Nexa-Heavy.ttf);
+    src: url(../fuentes/Nexa-Heavy.ttf);
 }
