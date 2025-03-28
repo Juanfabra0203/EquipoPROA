@@ -2,15 +2,7 @@
 <html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N0QCWL6SMZ"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
 
-        gtag('config', 'G-N0QCWL6SMZ');
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/Equipo-PROA-logo.png" type="image/x-icon">
@@ -20,6 +12,7 @@
 
 <body>
     <div class="principal">
+        
         <div class="logo">
             <img src="img/Equipo-PROA-logo.png" alt="">
         </div>
@@ -28,11 +21,14 @@
 
             <div class="all-archivos">
 
-                <div class="title">
-                    <h1>Algoritmos de manejo</h1>
-                </div>
+
 
                 <div class="algoritmos">
+
+                    <div class="title">
+                        <h1>Algoritmos de manejo</h1>
+                    </div>
+
                     <div class="archivo">
                         <div class="img-pdf">
                             <img src="img/PDF_file_icon.svg.png" alt="">
@@ -99,11 +95,12 @@
 
 
 
-                <div class="title">
-                    <h1>Infografias</h1>
-                </div>
+
 
                 <div class="infografia">
+                    <div class="title">
+                        <h1>Infografias</h1>
+                    </div>
 
                     <div class="archivo">
                         <div class="img-pdf">
@@ -163,9 +160,57 @@
 
                 </div>
 
+
+                <div class="videos">
+
+                    <div class="title">
+                        <h1>Galeria de Videos, Charlas</h1>
+                    </div>
+
+                    <div class="video-gallery">
+
+                        <div class="video-thumbnail" onclick="openModal('Oa_RSwwpPaA')">
+                            <div class="cont-video">
+                                <img src="https://img.youtube.com/vi/Oa_RSwwpPaA/maxresdefault.jpg" alt="Video 1">
+                                <button class="play-button">▶</button>
+                                <h5>Benson Boone - Beautiful Things </h5>
+                            </div>
+                        </div>
+
+
+                        <div class="video-thumbnail" onclick="openModal('BpoeXZ4lbPQ')">
+                            <div class="cont-video">
+                                <img src="https://img.youtube.com/vi/BpoeXZ4lbPQ/hqdefault.jpg" alt="Video 2">
+                                <button class="play-button">▶</button>
+                                <h5>HABLANDO HUEVADAS</h5>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal" id="videoModal">
+                        <div class="modal-content">
+                            <button class="close-button" onclick="closeModal()">✖</button>
+                            <iframe id="videoFrame" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                </div>
+
+
             </div>
 
         </div>
+
+
+        <footer>
+
+        </footer>
+
+        <script src="js/functions.js"></script>
 
 </body>
 
