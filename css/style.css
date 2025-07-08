@@ -159,10 +159,13 @@ body {
     width: 100%;
     height: auto;
 
+
 }
 
 .update-date{
+    padding: 20px 0px;
     font-family: Nexa-light;
+    text-align: center;
 }
 
 
@@ -376,6 +379,7 @@ body {
         top: -10px;
         right: -10px;
         color: white;
+        
         border: none;
         font-size: 18px;
         padding: 5px 10px;
@@ -483,12 +487,17 @@ body {
         top: -10px;
         right: -10px;
         color: white;
+        background-color: rgba(255, 0, 0, 0.421);
         border: none;
         font-size: 18px;
         padding: 5px 10px;
         cursor: pointer;
         border-radius: 50%;
     }
+
+    
+
+
     
 
     
