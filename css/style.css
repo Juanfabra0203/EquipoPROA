@@ -104,6 +104,19 @@ body {
     padding-bottom: 20px;
 }
 
+.protocolos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    height: auto;
+    flex-wrap: wrap;
+    margin: 10px;
+    border:2px solid rgba(139, 139, 139, 0.11);
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
 .videos{
     display: flex;
     justify-content: center;
